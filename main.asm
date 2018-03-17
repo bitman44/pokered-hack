@@ -730,7 +730,7 @@ BeedrillPicBack::     INCBIN "pic/monback/beedrillb.pic"
 FossilKabutopsPic::   INCBIN "pic/bmon/fossilkabutops.pic"
 
 
-SECTION "Battle (bank B)", ROMX, BANK[$B]
+SECTION "Battle (bank B)", ROMX, BANK[$2D]
 
 INCLUDE "engine/battle/display_effectiveness.asm"
 
@@ -874,7 +874,7 @@ VictreebelPicFront::   INCBIN "pic/bmon/victreebel.pic"
 VictreebelPicBack::    INCBIN "pic/monback/victreebelb.pic"
 
 
-SECTION "Battle (bank D)", ROMX, BANK[$D]
+SECTION "Battle (bank D)", ROMX, BANK[$2E]
 
 INCLUDE "engine/titlescreen2.asm"
 INCLUDE "engine/battle/link_battle_versus_text.asm"

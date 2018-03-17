@@ -2990,3 +2990,4 @@ CheckMapForMon:
 
 ItemUseDebugMenu:
 	callab _DebugMenu
+	ret

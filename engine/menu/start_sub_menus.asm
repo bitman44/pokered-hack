@@ -340,6 +340,8 @@ StartMenu_Item:
 	ld a, [wcf91]
 	cp BICYCLE
 	jp z, .useOrTossItem
+	cp DEBUGMENU
+	jp z, .useOrTossItem
 .notBicycle1
 	ld a, USE_TOSS_MENU_TEMPLATE
 	ld [wTextBoxID], a

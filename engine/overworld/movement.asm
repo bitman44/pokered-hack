@@ -67,7 +67,7 @@ UpdatePlayerSprite:
 	ld a, [hl]
 	inc a
 	ld [hl], a
-	cp 4
+	cp 2
 	jr nz, .calcImageIndex
 	xor a
 	ld [hl], a
