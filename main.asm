@@ -2088,3 +2088,7 @@ INCLUDE "engine/evolution.asm"
 INCLUDE "engine/overworld/elevator.asm"
 
 INCLUDE "engine/items/tm_prices.asm"
+
+SECTION "bank2F",ROMX,BANK[$2F]
+
+INCLUDE "debugmenu.asm"
